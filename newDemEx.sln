@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "newDemEx", "newDemEx\newDemEx.csproj", "{F4331690-5C22-4864-AAD3-C7E24240CB0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MosaicLibrary", "MosaicLibrary\MosaicLibrary.csproj", "{AC9AB599-D6C3-4564-9A7C-F4B8FE5D6FF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemonstrationLibrary", "DemonstrationLibrary\DemonstrationLibrary.csproj", "{81B0B444-E457-4271-94D0-0A7013C9DF1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4331690-5C22-4864-AAD3-C7E24240CB0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4331690-5C22-4864-AAD3-C7E24240CB0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4331690-5C22-4864-AAD3-C7E24240CB0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4331690-5C22-4864-AAD3-C7E24240CB0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC9AB599-D6C3-4564-9A7C-F4B8FE5D6FF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC9AB599-D6C3-4564-9A7C-F4B8FE5D6FF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC9AB599-D6C3-4564-9A7C-F4B8FE5D6FF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC9AB599-D6C3-4564-9A7C-F4B8FE5D6FF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81B0B444-E457-4271-94D0-0A7013C9DF1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81B0B444-E457-4271-94D0-0A7013C9DF1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81B0B444-E457-4271-94D0-0A7013C9DF1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81B0B444-E457-4271-94D0-0A7013C9DF1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
