@@ -16,7 +16,7 @@
 
         <DataGrid Name="MainDataGrid" AutoGenerateColumns="False" IsReadOnly="True" Background="#F4E8D3">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="№" Width="30" Binding="{Binding Order.PartnerId}"/>
+                <DataGridTextColumn Header="№" Width="30" Binding="{Binding Id}"/>
                 <DataGridTextColumn Header="Продукция" Width="*" Binding="{Binding Product.Name}"/>
                 <DataGridTextColumn Header="Количество продукта" Width="*" Binding="{Binding Amount}"/>
                 <DataGridTextColumn Header="Минимальная стоимость" Width="*" Binding="{Binding Product.MinCost, StringFormat=F2}"/>
