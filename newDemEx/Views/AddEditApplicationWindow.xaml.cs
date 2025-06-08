@@ -81,7 +81,7 @@ namespace newDemEx.Views
             partner.Company.Email = EmailTextBox.Text;
             partner.Rating = decimal.Parse(CompanyRatingTextBox.Text);
 
-            _db.Partner.AddOrUpdate(_partner);
+            _db.Partner.AddOrUpdate(partner);
             SaveChanges();
         }
 
